@@ -1,0 +1,99 @@
+body {
+    background-color: #e59500;
+    
+}
+
+/* Header stuff - both fonts come from google fonts*/
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    
+}
+
+h1 {
+    font-family: "Stack Sans Headline", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    text-align: center;
+
+    font-size: 50px;
+}
+
+/* non header stuff*/
+h2, h3 {
+    font-family: "Stack Sans Headline",
+            sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    margin-left: 40px;
+    color: #E5DADA;
+    text-shadow: 3px 3px #232639;
+}
+
+
+
+nav {
+    background-color: #02040f;
+    color: #E5DADA;
+    padding: 3px;
+    border-style: solid ;
+    border-radius: 5px;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+
+    margin-right: 50%;    
+    margin-left: 40px;
+    color: #E5DADA;
+    
+}
+
+img {
+    width: 250px;
+    margin-left: 80px;
+    border: solid;
+}
+
+/*the content on the right*/
+aside {
+    margin-left: 70%;
+    position: absolute; 
+    top: 225px;
+    right:0;
+    background-color: #002642;
+    color:#E5DADA;
+    border-style: solid;
+    border-radius: 5px;
+    padding-bottom: 130px;
+}
+
+/*the left*/
+section {
+    background-color: #840032;
+    width: 65%;
+    border-style: solid;
+    margin-top: 30px;
+    border-radius: 5px;
+    color:#E5DADA;
+}
+
+/*and finally the footer*/
+footer{
+    background-color: #02040f;
+    padding: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #E5DADA;
+}

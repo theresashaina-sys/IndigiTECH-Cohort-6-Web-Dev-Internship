@@ -1,0 +1,24 @@
+table, th, tr, td {
+    border: solid 5px black;
+    border-collapse: collapse;
+    
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+    background-color: #b9a697;
+}
+
+th {
+    background-color: #5e0b15; 
+    color: #e0d6c5;
+}
+
+caption {
+    font-size: 20px;
+}
+
+body {
+    background-color: #b09067;
+}
